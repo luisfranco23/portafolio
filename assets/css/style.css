@@ -1,0 +1,229 @@
+*,
+html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #020403;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+.home{
+    position: sticky;
+    top: 0;
+}
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 50px;
+    height: 80px;
+    padding-right: 50px;
+}
+
+.navbar__link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar__link:hover {
+    color: #ADADAD;
+}
+
+.presentation {
+    background-image: url('../img/Vector1.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.photo{
+    padding-bottom: 20px;
+}
+.presentation__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: 50px;
+    color: #ADADAD;
+}
+
+.title {
+    font-size: 90px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.social__network {
+    padding: 20px;
+}
+.vector {
+    background-image: url('../img/Vector2.svg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+}
+.wrapper{
+    max-width: 1024px;
+    margin: auto auto;
+}
+.aboutme {
+    text-align: center;
+    width: 100%;
+}
+
+.title_aboutme {
+    font-size: 45px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.title__desciption {
+    color: #ADADAD;
+    text-align: justify;
+}
+.skills{
+    background-image: url('../img/Vector3.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.skill__title{
+    padding-top: 45px;
+    color: #fff;
+    font-size: 45px;
+}
+.ability{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-content: center;
+}
+.ability__target{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.caption{
+    color: #fff;
+}
+.target__circle{
+    border-radius: 50%;
+    background-color: #1c1616;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title__experience{
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.item{
+    border-bottom: 1px solid #ADADAD;
+    display: flex;
+    gap: 40%;
+    width: 70%;
+    margin: auto auto;
+}
+.item__title{
+    color: #fff;
+}
+.business{
+    color: #ADADAD;
+}
+.item__date{
+    color: #ADADAD;
+}
+.title__portafolio{
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.target{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.paginaWeb{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.paginaWeb > h2{
+    font-weight: 600;
+    color: steelblue;
+    padding-top: 30px;
+}
+.url{
+    background-color: #ADADAD;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.search{
+    width: 80%;
+    margin: auto auto;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.btn{
+    border: none;
+    background-color: rgb(12, 83, 128);
+    border-radius: 5px;
+    color: white;
+}
+.contac{
+    padding-bottom: 40px;
+}
+
+.title__contac{
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+.target__contact > p{
+    color: #ADADAD;
+}
+.targets__contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+}
+.target__contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
