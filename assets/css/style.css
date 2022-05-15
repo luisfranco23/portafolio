@@ -75,6 +75,7 @@ body {
     font-size: 40px;
     color: #fff;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 .social__network {
@@ -109,6 +110,7 @@ body {
 .title__desciption {
     color: #ADADAD;
     text-align: justify;
+    padding: 0 20px;
 }
 
 .skills {
@@ -121,6 +123,7 @@ body {
     padding-top: 45px;
     color: #fff;
     font-size: 45px;
+    padding-left: 20px;
 }
 
 .ability {
@@ -241,6 +244,7 @@ body {
     background-image: url(../img/Vector3.svg);
     background-repeat: no-repeat;
     background-position: bottom left;
+    padding: 0 20px;
 }
 
 .title__contac {
