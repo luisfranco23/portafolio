@@ -244,7 +244,6 @@ body {
     background-image: url(../img/Vector3.svg);
     background-repeat: no-repeat;
     background-position: bottom left;
-    padding: 0 20px;
 }
 
 .title__contac {
@@ -262,7 +261,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20%;
 }
 
 .target__contact {
@@ -270,16 +268,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
-.navbar.active {
-    height: auto;
-}
-
-.navbar .active .navbar__link{
-    opacity: 1;
-    height: auto;
-}
-
 @media screen and (max-width:768px) {
     .navbar {
         position: absolute;
@@ -295,7 +285,6 @@ body {
         transition: all .3s ease-in-out;
         visibility: hidden;
     }
-
     .navbar__link {
         color: #020403;
         overflow: hidden;
