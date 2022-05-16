@@ -57,7 +57,13 @@ body {
 }
 
 .photo {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+}
+.photo > img{
+    width: 100%;
+    margin: 0;
+    left: 0;
+    padding: 0;
 }
 
 .presentation__title {
@@ -276,23 +282,28 @@ body {
         top: 40px;
         flex-direction: column;
         background-color: #fff;
-        height: auto;
         width: 100%;
-        overflow: hidden;
         z-index: 1;
         height: 0;
         padding: 0;
-        transition: all .3s ease-in-out;
-        visibility: hidden;
-    }
-    .navbar__link {
-        color: #020403;
         overflow: hidden;
+        transition: all .3s ease-in-out;
+        gap: 10px;
+    }
+    .navbar__link{
+        color: #020403;
+        padding: 20px 0;
+    }
+    .navbar__link:hover{
+        background-color: #020403;
+        color: #fff;
+        transition: all .3s ease-in-out;
+        width: 100%;
+        text-align: center;
     }
     .target {
         flex-direction: column;
     }
-
     .navbar__btn>i {
         color: #fff;
         font-size: 30px;
@@ -304,7 +315,9 @@ body {
         padding: 20 30px 0 0;
     }
 }
-
+.navbar.active{
+    height: auto;
+}
 @media screen and (min-width:768px) {
     .navbar__btn {
         visibility: hidden;
