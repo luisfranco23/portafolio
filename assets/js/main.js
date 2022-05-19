@@ -8,3 +8,12 @@ let agregarActive = function (){
     navbarMenu.classList.toggle('active')
 }
 navbarBtn.addEventListener('click', agregarActive)
+
+const link = document.getElementsByClassName('navbar__link')
+
+let agregarActiveLinks = function (){
+    document.getElementById("navbar__link").style.display = "none";
+}
+
+
+let agregarActiveLink = addEventListener('click',agregarActiveLinks)

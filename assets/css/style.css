@@ -58,12 +58,17 @@ body {
 
 .photo {
     padding-bottom: 10px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 80%;
 }
 .photo > img{
     width: 100%;
     margin: 0;
     left: 0;
     padding: 0;
+    height: 100%;
+    object-fit: cover;
 }
 
 .presentation__title {
@@ -138,6 +143,7 @@ body {
     grid-template-rows: auto auto;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .ability__target {
@@ -168,6 +174,7 @@ body {
     text-align: center;
     padding-bottom: 50px;
 }
+
 
 .item {
     border-bottom: 1px solid #ADADAD;
@@ -215,6 +222,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding-bottom: 30px;
+    background-color: rgb(167, 167, 167);
 }
 
 .paginaWeb>h2 {
@@ -250,6 +258,7 @@ body {
     background-image: url(../img/Vector3.svg);
     background-repeat: no-repeat;
     background-position: bottom left;
+    width: 100%;
 }
 
 .title__contac {
@@ -264,9 +273,9 @@ body {
 }
 
 .targets__contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .target__contact {
@@ -275,6 +284,15 @@ body {
     align-items: center;
     flex-direction: column;
     width: 100%;
+}
+.footer{
+    height: 50px;
+    text-align: center;
+    border-top: 1px solid #ADADAD;
+}
+.footer > p{
+    color: #fff;
+    padding-top: 10px;
 }
 @media screen and (max-width:768px) {
     .navbar {
@@ -313,6 +331,10 @@ body {
         background-color: #020403;
         border: none;
         padding: 20 30px 0 0;
+    }
+    .ability__target {
+        padding: 30px;
+        text-align: center;
     }
 }
 .navbar.active{
